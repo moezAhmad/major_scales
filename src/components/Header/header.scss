@@ -1,0 +1,39 @@
+// header.scss
+
+@import "../../styles/variables";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $foreground-color;
+  color: $text-color;
+  padding: $spacing-medium;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__nav-list {
+    display: flex;
+    overflow-x: auto;
+    width: 60%;
+    list-style: none;
+    padding: 0;
+    gap: $spacing-medium;
+  }
+
+  &__nav-item {
+    padding: $spacing-small;
+    border-radius: 5px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    &:hover {
+      border-color: $text-color;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
