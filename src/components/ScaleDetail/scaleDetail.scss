@@ -6,7 +6,7 @@
   &:nth-child(even) {
     background-color: $foreground-color;
   }
-  padding: $spacing-xlarge;
+  padding: $spacing-xlarge $spacing-small;
   display: flex;
   flex-direction: column;
   align-items: center;

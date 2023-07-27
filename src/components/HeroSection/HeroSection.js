@@ -9,9 +9,10 @@ const HeroSection = () => {
       <div className="hero__text">
         <h1>Welcome to Music Land!</h1>
         <p>
-          Did you know? The world's largest piano was built by Adrian Mann, a
-          piano tuner from New Zealand. It measures an impressive 5.7 meters
-          long and has brought a whole new depth to the phrase "grand piano"!
+          Did you know? Whales in the ocean sing songs in major scales just like
+          our favorite tunes! Dive into a world of music, swim with the
+          melodies, and learn the language that even the giants of the sea
+          understand!
         </p>
       </div>
       <div className="hero__logo">

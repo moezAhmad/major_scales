@@ -6,7 +6,7 @@ const ScalesSection = () => {
   return (
     <div className="scales-section">
       {scalesData.map((scale) => (
-        <div className="scales-detail">
+        <div id={scale.route} className="scales-detail">
           <h2>{scale.name}</h2>
           <img src={scale.src} alt={scale.name} />
           <p>{scale.info}</p>{" "}

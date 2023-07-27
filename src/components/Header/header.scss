@@ -2,11 +2,22 @@
 
 @import "../../styles/variables";
 
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: $foreground-color;
+  z-index: 1;
   color: $text-color;
   padding: $spacing-medium;
 
@@ -31,6 +42,7 @@
     white-space: nowrap;
     transition: all 0.3s ease;
     font-size: 1.1rem;
+    cursor: pointer;
     &:hover {
       border-color: $text-color;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
