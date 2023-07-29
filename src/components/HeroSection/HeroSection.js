@@ -2,6 +2,7 @@
 
 import React from "react";
 import "./heroSection.scss";
+import Hero from "../../assets/scales/Hero.png";
 
 const HeroSection = () => {
   return (
@@ -17,7 +18,7 @@ const HeroSection = () => {
       </div>
       <div className="hero__logo">
         {/* Replace with your actual logo */}
-        <img src="logo.svg" alt="Music Land Logo" />
+        <img src={Hero} alt="Music Land Logo" />
       </div>
     </section>
   );

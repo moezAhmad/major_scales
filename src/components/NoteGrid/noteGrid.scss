@@ -21,7 +21,7 @@
       transition: transform 0.2s ease-in-out;
       margin-top: $spacing-medium;
       &:hover {
-        transform: scale(1.05);
+        transform: scale(1.02);
       }
 
       img {
@@ -43,7 +43,7 @@
     }
 
     @media (min-width: $tablet) {
-      grid-template-columns: repeat(auto-fill, minmax($mobile, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
     }
   }
 }

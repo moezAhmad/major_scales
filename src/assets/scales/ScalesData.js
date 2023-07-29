@@ -1,18 +1,18 @@
-import A from "./A.svg";
-import Ab from "./Ab.svg";
-import B from "./B.svg";
-import Bb from "./Bb.svg";
-import C from "./C.svg";
-import CSharp from "./CSharp.svg";
-import Cb from "./Cb.svg";
-import D from "./D.svg";
-import Db from "./Db.svg";
-import E from "./E.svg";
-import Eb from "./Eb.svg";
-import F from "./F.svg";
-import FSharp from "./FSharp.svg";
-import G from "./G.svg";
-import Gb from "./Gb.svg";
+import A from "./A2.svg";
+import Ab from "./Ab2.svg";
+import B from "./B2.svg";
+import Bb from "./Bb2.svg";
+import C from "./C2.svg";
+import CSharp from "./CSharp2.svg";
+import Cb from "./Cb2.svg";
+import D from "./D2.svg";
+import Db from "./Db2.svg";
+import E from "./E2.svg";
+import Eb from "./Eb2.svg";
+import F from "./F2.svg";
+import FSharp from "./FSharp2.svg";
+import G from "./G2.svg";
+import Gb from "./Gb2.svg";
 
 export const scalesData = [
   {
