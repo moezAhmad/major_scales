@@ -1,5 +1,5 @@
 import React from "react";
-import { scalesData } from "../../assets/scales/ScalesData";
+import { scalesData } from "../../assets/ScalesData";
 import "./noteGrid.scss";
 import { Link } from "react-scroll";
 const NoteGrid = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { scalesData } from "../../assets/scales/ScalesData";
+import { scalesData } from "../../assets/ScalesData";
 import "./scaleDetail.scss";
 
 const ScalesSection = () => {

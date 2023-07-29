@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import "./header.scss";
-import { scalesData } from "../../assets/scales/ScalesData";
+import { scalesData } from "../../assets/ScalesData";
 
 const Header = () => {
   const [lastScrollTop, setLastScrollTop] = useState(0);
