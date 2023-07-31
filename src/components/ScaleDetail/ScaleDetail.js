@@ -63,7 +63,7 @@ const ScalesSection = () => {
           >
             <h2>{scale.name}</h2>
             <img src={scale.src} alt={scale.name} />
-            <p>{scale.info}</p>
+            {/* <p>{scale.info}</p> */}
             {scale.notes.map((note) => {
               let { left, top } = getWidthNote(windowWidth, note);
 

@@ -2703,7 +2703,6 @@ export const scalesData = [
         topMobile: "46.7%",
         leftTablet: "33%",
         topTablet: "43%",
-        sound: bb,
         sound: b,
       },
       {
