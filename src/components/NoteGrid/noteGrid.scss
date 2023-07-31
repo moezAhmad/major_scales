@@ -11,6 +11,7 @@
   &__container {
     display: grid;
     gap: 1rem;
+
     &__item {
       cursor: pointer;
       width: 100%;
@@ -42,8 +43,11 @@
       grid-template-columns: repeat(auto-fill, minmax($mobile, 1fr));
     }
 
-    @media (min-width: $tablet) {
+    @media (min-width: 1350px) {
       grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+      &-first-child:first-child {
+        grid-column: span 2;
+      }
     }
   }
 }

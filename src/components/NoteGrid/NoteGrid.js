@@ -21,17 +21,21 @@ const NoteGrid = () => {
 
         <div className="noteGrid__container">
           {scalesData.map((scale) => (
-            <Link
+            <div
               key={scale.id}
-              to={`${scale.route}`}
-              smooth={true}
-              duration={500}
+              className={`${
+                scale.id === scalesData[0].id
+                  ? "noteGrid__container-first-child"
+                  : ""
+              }`}
             >
-              <div key={scale.id} className="noteGrid__container__item">
-                <img src={scale.src} alt={scale.name} />
-                <h1>{scale.name}</h1>
-              </div>
-            </Link>
+              <Link to={`${scale.route}`} smooth={true} duration={500}>
+                <div className="noteGrid__container__item">
+                  <img src={scale.src} alt={scale.name} />
+                  <h1>{scale.name}</h1>
+                </div>
+              </Link>
+            </div>
           ))}
         </div>
       </animated.section>
