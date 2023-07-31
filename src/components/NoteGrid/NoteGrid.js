@@ -9,7 +9,12 @@ const NoteGrid = () => {
 
       <div className="noteGrid__container">
         {scalesData.map((scale) => (
-          <Link to={`${scale.route}`} smooth={true} duration={500}>
+          <Link
+            key={scale.id}
+            to={`${scale.route}`}
+            smooth={true}
+            duration={500}
+          >
             <div key={scale.id} className="noteGrid__container__item">
               <img src={scale.src} alt={scale.name} />
               <h1>{scale.name}</h1>

@@ -2,31 +2,55 @@
 
 @import "../../styles/variables";
 
-.scales-detail {
-  &:nth-child(even) {
-    background-color: $foreground-color;
+.scales {
+  &-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  padding: $spacing-xlarge $spacing-small;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2em;
+  &-detail {
+    &:nth-child(even) {
+      background-color: $foreground-color;
+    }
+    position: relative;
+    padding: $spacing-xlarge $spacing-small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    &-smaller-mobile {
+      width: 100%;
+      max-width: 400px;
+    }
+    &-mobile {
+      max-width: 700px;
+      width: 100%;
+    }
+    &-tablet {
+      width: 100%;
+      max-width: 1000px;
+    }
+    &-desktop {
+      width: 100%;
+      max-width: 1600px;
+    }
 
-  h2 {
-    margin-bottom: 1em;
-    text-align: center;
-    font-size: 2.5em;
-  }
+    h2 {
+      margin-bottom: 1em;
+      text-align: center;
+      font-size: 2.5em;
+    }
 
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1em;
-  }
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1em;
+    }
 
-  p {
-    text-align: center;
-    max-width: 80%;
-    margin: 0 auto;
+    p {
+      text-align: center;
+      max-width: 80%;
+      margin: 0 auto;
+    }
   }
 }

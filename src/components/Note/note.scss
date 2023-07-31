@@ -1,0 +1,23 @@
+.note {
+  position: absolute;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+
+  &-smaller-mobile {
+    width: 15px;
+    height: 15px;
+  }
+  &-mobile {
+    width: 25px;
+    height: 25px;
+  }
+  &-tablet {
+    width: 30px;
+    height: 30px;
+  }
+  &-desktop {
+    width: 40px;
+    height: 40px;
+  }
+}
