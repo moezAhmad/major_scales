@@ -3,16 +3,12 @@ import Ab from "./scales/Ab.svg";
 import B from "./scales/B.svg";
 import Bb from "./scales/Bb.svg";
 import C from "./scales/C.svg";
-import CSharp from "./scales/CSharp.svg";
-import Cb from "./scales/Cb.svg";
 import D from "./scales/D.svg";
 import Db from "./scales/Db.svg";
 import E from "./scales/E.svg";
 import Eb from "./scales/Eb.svg";
 import F from "./scales/F.svg";
-import FSharp from "./scales/FSharp.svg";
 import G from "./scales/G.svg";
-import Gb from "./scales/Gb.svg";
 
 import a from "./sounds/a.mp3";
 import a1 from "./sounds/a1.mp3";

@@ -31,8 +31,8 @@ const NoteGrid = () => {
             >
               <Link to={`${scale.route}`} smooth={true} duration={500}>
                 <div className="noteGrid__container__item">
+                  <h1>{`${scale.name}`}</h1>
                   <img src={scale.src} alt={scale.name} />
-                  <h1>{scale.name}</h1>
                 </div>
               </Link>
             </div>
